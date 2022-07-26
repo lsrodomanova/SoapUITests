@@ -36,6 +36,7 @@ public class SoapTests {
 
         System.out.println(response.asString());
         assertTrue(response.asString().contains("Warsaw"));
+        assertTrue(response.asString().contains("PLN"));
         // TODO implement jaxb unmarshalling
     }
 }
